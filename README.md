@@ -1,5 +1,5 @@
 # 
-<h1 align="center">Airlines :mending_heart::drop_of_blood::stethoscope:</h1>
+<h1 align="center">Airlines </h1> <!-- don't forget to put some emojis--->
 
 ![GitHub last commit](https://img.shields.io/github/last-commit/MEziliano/HeartDisease?style=for-the-badge) 
 ![GitHub code size](https://img.shields.io/github/languages/code-size/MEziliano/HeartDisease?style=for-the-badge)
