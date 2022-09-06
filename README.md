@@ -20,23 +20,37 @@ Project about heart disease detection with Python and Machine Learning
 <details><summary>Data Dictionary</summary>
 <p>
 
-| Column  | Description |
-| ------------- | ------------- |
-| Age      | age in years|
-| sex      | (1 = male; 0 = female)|
-| cp       | Chest pain type   (0-3)| 
-| trestbps | resting blood pressure (in **mm Hg** on admission to the hospital)|
-| chol     | serum cholestoral in **mg/dl**|
-| fbs      | (fasting blood sugar & gt; 120 mg/dl) (1 = true; 0 = false)|
-| restcg   | resting electrocardiographic results|
-| thalach  | maximum heart rate achieved| 
-| exang    | exercise induced angina (1 = yes; 0 = no)|
-| oldpeak  | ST depression induced by exercise relative to rest|
-| slope    | the slope of the peak exercise ST segment|
-| ca       | number of major vessels (0-3) colored by flourosopy|
-| thal     | 3 = normal; 6 = fixed defect; 7 = reversable defect.|
-| target   | (1 = Non Health; 0 = Health)  |
-</p>
+| Pattern Column  | Children Colums| Description |
+| ------------- | ------------- |  ------------- |
+| EMPRESA       | (SIGLA)(NOME)(NACIONALIDADE)| |
+| ANO|  | |
+| MES | | |
+| AEROPORTO DE ORIGEM | (SIGLA)(NOME)(UF)(REGIAO)(PAIS)(CONT)(IATA)| |
+| AEROPORTO DE DESTINO | (SIGLA)(NOME)(UF) (REG) (PAIS)(CONT)(IATA)| |
+| NATUREZA| |
+| GRUPO DE VOO| |
+| PASSAGEIROS PAGOS| |
+| PASSAGEIROS GRATIS| | 
+| CARGA PAGA (KG)| |  
+| CARGA GRATIS (KG)| |
+| CORREIO (KG)|     |
+| ASK | |
+| RPK | | 
+| ATK | |
+| RTK | |
+| COMB (LTRS) - APENAS EMP BRL| | 
+| DISTANCIA VOADA (KM)| | 
+| DECOLAGENS | |
+| CARGA PAGA KM | |
+| CARGA GRATIS KM | |
+| CORREIO KM | |
+| ASSENTOS| |
+| PAYLOAD| |
+| HORAS VOADAS| |
+| BAGAGEM (KG)| |
+
+    
+       </p>
 </details>
   
 <h2> Exploratory Data Analysis — EDA </h2>
@@ -58,7 +72,7 @@ Project about heart disease detection with Python and Machine Learning
 <a href="https://www.kaggle.com/chingchunyeh/heart-disease-report/data"><img align="center" src="https://img.shields.io/badge/Kaggle-20BEFF?style=for-the-badge&logo=Kaggle&logoColor=white"></a>
 <a href="https://colab.research.google.com/drive/1Mlj9hkHyPX7AiYvmwCotn0UeSJNAImuL"><img align="center" src="https://img.shields.io/badge/Colab-F9AB00?style=for-the-badge&logo=googlecolab&color=525252" alt="Open In Colab"/></a> 
 <img align="center" src="https://img.shields.io/badge/Python-FFD43B?style=for-the-badge&logo=python&logoColor=darkgreen" target="_blank">
-<img align="center" src="https://img.shields.io/badge/scikit_learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white" target="_blank"> 
+<img align="center" src="https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white"> 
 
 <h3> Check also this comments</h3>
 <a href="https://medium.com/@murilosez06/a-week-inside-a-data-science-project-eabcfd2a2c56" target="_blank"><img align="center" src="https://img.shields.io/badge/Medium-12100E?style=for-the-badge&logo=medium&logoColor=white" target="_blank"></a>
